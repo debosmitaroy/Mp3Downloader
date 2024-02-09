@@ -11,7 +11,7 @@ MP3 Downloader program connects to your Spotify account, retrieves your songs/tr
 
 ## OAuth2 Authorization process:
 
-![authorize_spotify drawio](https://github.com/debosmitaroy/DDocs/assets/22961131/799f0edc-c3cd-4b5c-bdfa-26bec3518beb)
+![authorize_spotify drawio (1)](https://github.com/debosmitaroy/DDocs/assets/22961131/05cb0901-20dc-46df-a7f7-231e761e1154)
 
 ## Output:
 
