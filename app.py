@@ -6,6 +6,7 @@ from flask import Flask, url_for, session, request, redirect
 import json
 import time
 import pandas as pd
+from downloadMp3s import DownloadMp3
 
 # App config
 app = Flask(__name__)
@@ -63,6 +64,7 @@ def get_all_tracks():
     
     df = pd.DataFrame(results, columns=["song names"]) 
     df.to_csv('songs.csv', index=False)
+    DownloadMp3()
     return "done"
 
 
